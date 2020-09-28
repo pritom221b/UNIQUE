@@ -1,0 +1,451 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/**************************************************************************************/
+                          /*header section css starts from here*/
+/**************************************************************************************/
+.header-section{
+	width: 100%;
+    padding-bottom:200px; 
+	background: url("../images/bg1.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section.header-top{
+	width: 100%;
+	padding: 40px 0px;
+}
+.header-section .header-top img{
+	margin-top: -6px !important;
+}
+.header-section .header-top .link-control{
+	margin-top: 30px;
+	color: #1a1a1a;
+	font-size: 16px;
+	font-weight:700;
+}
+.header-section .header-top .link-control:hover{
+    background: url("../images/underline.png") center bottom no-repeat;
+	background-size: contain;
+	color:#4b26e7;
+}
+.header-section .header-top .lc1{
+	margin-left: 290px;
+}
+.header-section .header-top .btn-info{
+	margin-top: 33px;
+	margin-left: 20px;
+	padding: 6px 40px;
+	border: 0px;
+	border-radius: 20px;
+	background: linear-gradient(to right,#511de5 35%,#1085fa);
+	font-size: 14px;
+	font-weight: 700;
+	transition: 1s;
+}
+.header-section .header-top .btn-info:hover{
+	background: #511de5;
+	color: #ffffff;
+}
+.header-section .header-middle{
+	text-align: right;
+}
+.header-section .header-middle h1{
+	margin-top: 140px;
+	font-size: 49px;
+	line-height: 59px;
+	font-weight: 900;
+}
+.header-section .header-middle h1 span{
+	color:#511de5;
+}
+.header-section .header-middle .btn-info{
+	margin-top: 25px;
+	padding:9px 35px;
+	border:0px;
+	border-radius: 20px;
+	background:#f2f2f2;
+	color:#252f31;
+	transition: 1s; 
+}
+.header-section .header-middle .btn-info:hover{
+	background: #511de5;
+	color: #ffffff;
+}
+/**************************************************************************************/
+                          /*header section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*W section css starts from here*/
+/**************************************************************************************/
+.W-section{
+	padding: 25px 10px;
+	margin-top: -4%;
+	background:url("../images/Rectangle1.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.W-section img{
+	margin-right: 60%;
+	margin-top: -60px;
+}
+.W-section .text{
+	margin-top: -4.0%;
+}
+.W-section h4{
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #ffffff;
+}
+/**************************************************************************************/
+                          /*W section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*Features section css starts from here*/
+/**************************************************************************************/
+.features{
+	width: 100%;
+	padding: 40px 0px;
+	margin: 0px auto;
+	text-align: left;
+}
+.features .features-inner{
+	padding: 140px 160px 200px 0px;
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: contain;
+}
+.features .features-inner h2{
+	margin-left: 220px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 45px;
+	line-height: 55px;
+	font-weight: 900;
+}
+.features .features-inner p{
+	margin-left: 220px;
+	margin-top: 40px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 700;
+}
+.features .features-inner h1{
+	margin-left: 220px;
+	margin-top: 40px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 82px;
+	font-weight: 1000;
+	background: linear-gradient(to right,#511de5,#1085fa,#1085fa, #1085fa); 
+	-webkit-text-fill-color: transparent; 
+	-webkit-background-clip: text;            
+}
+.features .features-inner h6{
+	margin-left: 420px;
+	margin-top: -40px;
+	font-size: 12px;
+	font-weight: 900;	       
+}
+.features img{
+	margin-left: 100px;
+}
+/**************************************************************************************/
+                          /*Features section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*Intro design section css starts from  here*/
+/**************************************************************************************/
+.intro-design{
+	width: 100%;
+	padding: 200px 0px;
+	background: url("../images/bg3.png") center top no-repeat;
+	background-size: cover;
+}
+.intro-design .id-control{
+	margin-left: 10%;
+}
+.intro-design h4{
+	margin-top: -48%;
+	margin-left: 22%;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 600;
+}
+.intro-design p{ 
+	margin-left: 126px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 600;
+}
+.intro-design h2{
+	margin-left: -20%;
+	margin-top: 60px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:45px;
+	font-weight: 900;
+	line-height: 55px;
+}
+.intro-design .btn-info{
+	margin-top: 40px;
+	margin-left: -20%;
+	padding:9px 35px;
+	border:0px;
+	border-radius: 20px;
+	background:#f2f2f2;
+	color:#252f31;
+	transition: 1s; 
+}
+.intro-design .btn-info:hover{
+	background: #511de5;
+	color: #ffffff;
+}
+/**************************************************************************************/
+                          /*Intro design section css ends in  here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*efficiency section css starts from  here*/
+/**************************************************************************************/
+.efficiency{
+	width:80%;
+	margin: 0px auto;
+	padding: 100px 0px;
+}
+.efficiency .e-inner{
+	text-align: left;
+	margin-left: 7%;
+}
+.efficiency .e-inner h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:45px;
+	font-weight: 900;
+	line-height: 55px;
+}
+.efficiency .e-inner p{
+	margin: 20px 0px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:14px;
+	font-weight: 600;
+	line-height: 24px;
+}
+.efficiency .e-inner h4{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:14px;
+	font-weight: 800;
+}
+.efficiency .e-inner .shape1{
+	margin-bottom: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:14px;
+	font-weight: 800;
+}
+.efficiency .e-inner .btn-info{
+	margin-top: 33px;
+	padding: 10px 30px;
+	border: 0px;
+	border-radius: 20px;
+	background: linear-gradient(to right,#511de5 35%,#1085fa);
+	font-size: 14px;
+	font-weight: 700;
+	transition: 1s;
+}
+.efficiency .e-inner .btn-info:hover{
+	background: #511de5;
+	color: #ffffff;
+}
+.efficiency .ei-inner{
+	margin-left: -22%;
+}
+/**************************************************************************************/
+                          /*efficiency section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*feedback section css starts from here*/
+/**************************************************************************************/
+.feedback{
+	width: 100%;
+	padding: 100px 0px;
+	margin-top: 30px;
+	background: #fcfcfc;
+	text-align: center;
+}
+.feedback h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:45px;
+	font-weight: 900;
+	line-height: 55px;
+}
+.feedback p{
+	margin-top: 35px;
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 600;
+}
+.feedback .fcard img{
+	mix-blend-mode: darken;
+}
+.feedback .fborder{
+	border-left: 2px solid #f2f2f2;
+	border-right: 2px solid #f2f2f2; 
+}
+.feedback .fcard{
+	margin-top: 90px;
+}
+.feedback .fcard h5{
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: 700;
+}
+.feedback .fcard p{
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 600;
+}
+/**************************************************************************************/
+                          /*feedback section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*I quotes section css starts from  here*/
+/**************************************************************************************/
+.i-quotes{
+	width: 80%;
+	margin:0px auto;
+	padding: 80px 0px;
+}
+.i-quotes .i-header{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.i-quotes .i-header h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:45px;
+	font-weight: 900;
+	line-height: 55px;
+}
+.i-quotes .q-inner{
+	background: url("../images/bg5.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-bottom: 1px solid #f2f2f2;
+	box-shadow: 1px 4px 10px #ccc;
+	opacity: .5;
+	transition: 1s;
+}
+.i-quotes .q-inner:hover{
+	opacity: 1;
+}
+.i-quotes .q-inner:hover h5{
+	background: linear-gradient(to right,#511de5,#511de5,#1085fa, #1085fa); 
+	-webkit-text-fill-color: transparent; 
+	-webkit-background-clip: text;  
+}
+.i-quotes .q-inner h5{
+	padding: 106px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+}
+.i-quotes .q-inner h4{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.i-quotes .q-inner h6{
+	padding-bottom:35px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: 700;
+}
+/**************************************************************************************/
+                          /*I quotes section css ends in here*/
+/**************************************************************************************/
+/**************************************************************************************/
+                          /*faq section css starts from here*/
+/**************************************************************************************/
+.faq{
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 100px;
+	background: url("../images/bg6.png") center top no-repeat;
+	background-size: cover;
+}
+
+.faq .faq-design{
+	margin: 0px auto;
+	padding: 140px 0px;
+	background: url("../images/bg7.png") center top no-repeat;
+	background-size: cover;
+}
+.faq .faq-design .fc{
+	width: 60%;
+	margin: 0px auto;
+}
+.faq .faq-header{
+	text-align: center;
+	margin-bottom: 90px;
+}
+.faq .faq-header h2{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:45px;
+	font-weight: 900;
+	line-height: 55px;
+}
+.faq .card {
+    border: 0px;
+    border-radius: 0px;
+}
+.faq .card .card-body{
+	margin-left: 14px;
+	font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.faq .card .btn{
+	text-decoration: none;
+	font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+	color: #000;
+	transition: 1s;
+}
+.faq .card .btn:hover{
+	color: #511de5;
+}
+.faq .card .btn:focus{
+	color: #511de5;
+	box-shadow: none;
+}
+.faq .card-header {
+    padding:;
+    background:#ffffff;
+    border: 0px solid;
+    text-align: left;
+}
+.faq .footer-2{
+	padding: 20px 0px;
+}
+.faq .footer-2 .f-nav{
+	margin-top: 90px;
+	margin-left: 110px;
+}
+.faq .footer-2 .f-nav a{
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+}
+.faq .footer-2 h6{
+	margin-top: 100px;
+	margin-left:250px;
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+}
+/**************************************************************************************/
+                          /*faq section css ends in here*/
+/**************************************************************************************/
